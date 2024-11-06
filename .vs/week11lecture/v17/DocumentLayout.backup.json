@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rafaf\\Documents\\week11lecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|c:\\users\\rafaf\\documents\\week11lecture\\assets\\scenes\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|c:\\users\\rafaf\\documents\\week11lecture\\assets\\scenes\\scripts\\enemy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\enemy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|C:\\Users\\rafaf\\Documents\\week11lecture\\assets\\scenes\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|C:\\Users\\rafaf\\Documents\\week11lecture\\assets\\scenes\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|C:\\Users\\rafaf\\Documents\\week11lecture\\assets\\scenes\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy2.cs",
+              "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Enemy2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Enemy2.cs",
+              "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Enemy2.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\Enemy2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:39:31.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:10:20.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:06:11.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:00:13.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "player.cs",
+              "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\player.cs",
+              "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\player.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\player.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T19:08:46.432Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
