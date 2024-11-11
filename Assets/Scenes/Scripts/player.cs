@@ -2,20 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
-    public float speed = 5.0f;
-    private int lives = 3;
-    private int score = 0;
-    public float horizontalInput;
-    public float verticalInput;
+    private float horizontalInput;
+    private float verticalInput;
+    private float speed;
+    private float horizontalScreenSize = 11.5f;
+    private float verticalScreenSize = 7.5f;
+    private int lives;
 
     public GameObject bullet;
-
     // Start is called before the first frame update
     void Start()
     {
-        
+        speed = 6.0f;
+        lives = 3;
     }
 
     // Update is called once per frame
@@ -26,28 +27,42 @@ public class player : MonoBehaviour
     }
 
     void Movement()
-    { 
+    {
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
-        transform.Translate(new Vector3(horizontalInput, 0, 0) * Time.deltaTime * speed);
-
-        if (transform.position.x > 11.5f || transform.position.x <= -11.5f) {
+        transform.Translate(new Vector3(horizontalInput, verticalInput, 0) * Time.deltaTime * speed);
+        if (transform.position.x > horizontalScreenSize || transform.position.x <= -horizontalScreenSize)
+        {
             transform.position = new Vector3(transform.position.x * -1, transform.position.y, 0);
         }
-       
-
-        if (transform.position.y > 8.5f || transform.position.y <= -8.5f)
+        if (transform.position.y > verticalScreenSize || transform.position.y < -verticalScreenSize)
         {
-            transform.position = new Vector3(transform.position.x,transform.position.y * -1, 0);
+            transform.position = new Vector3(transform.position.x, transform.position.y * -1, 0);
         }
-
     }
 
     void Shooting()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(bullet, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
+            Instantiate(bullet, transform.position + new Vector3(0,1,0), Quaternion.identity);
+        }
+    }
+
+    public void LoseALife()
+    {
+        lives--;
+        if (lives == 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D whatIHit)
+    {
+        if (whatIHit.tag == "Coin")
+        {
+            GameObject.Find("GameManager").GetComponent<GameManager>().EarnScore(1);
+            Destroy(whatIHit.gameObject);
         }
     }
 }
