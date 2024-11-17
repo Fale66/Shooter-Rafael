@@ -5,10 +5,11 @@ using UnityEngine;
 public class MovingObject : MonoBehaviour
 {
     public int whatAmI;
+    private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
-
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -24,7 +25,11 @@ public class MovingObject : MonoBehaviour
         }
         else if (whatAmI == 3)
         {
-            transform.Translate(new Vector3(0, -1, 0) * Time.deltaTime * Random.Range(3f, 6f));
+            transform.Translate(new Vector3(0, -1, 0) * Time.deltaTime * Random.Range(3f, 6f) * gameManager.cloudSpeed);
+        }
+        else if(whatAmI == 4)
+        {
+            transform.Translate(new Vector3(0, -1, 0) * Time.deltaTime * 6f);
         }
         if ((transform.position.y > 9f || transform.position.y <= -9f) && whatAmI != 3)
         {

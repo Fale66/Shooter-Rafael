@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\rafaf\\Documents\\week11lecture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|c:\\users\\rafaf\\documents\\week11lecture\\assets\\scenes\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|C:\\Users\\rafaf\\Documents\\week11lecture\\assets\\scenes\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|C:\\Users\\rafaf\\Documents\\week11lecture\\assets\\scenes\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +19,16 @@
       "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\movingobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|C:\\Users\\rafaf\\Documents\\week11lecture\\assets\\scenes\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|C:\\Users\\rafaf\\Documents\\week11lecture\\assets\\scenes\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|c:\\users\\rafaf\\documents\\week11lecture\\assets\\scenes\\scripts\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|C:\\Users\\rafaf\\Documents\\week11lecture\\assets\\scenes\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|C:\\Users\\rafaf\\Documents\\week11lecture\\assets\\scenes\\scripts\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|c:\\users\\rafaf\\documents\\week11lecture\\assets\\scenes\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF140888-91B8-5269-E646-DC2B67DA8573}|Assembly-CSharp.csproj|C:\\Users\\rafaf\\Documents\\week11lecture\\assets\\scenes\\scripts\\cloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,37 +42,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T21:44:11.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Coin.cs",
+              "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Coin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Coin.cs",
+              "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Coin.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\Coin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T23:26:47.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Explosion.cs",
               "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Explosion.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Explosion.cs",
               "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Explosion.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\Explosion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T22:50:15.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T22:50:15.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Enemy.cs",
               "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T21:35:30.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Cloud.cs",
               "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Cloud.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Cloud.cs",
@@ -72,44 +103,42 @@
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\Cloud.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T20:48:17.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T20:48:17.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MovingObject.cs",
               "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\MovingObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\MovingObject.cs",
               "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\MovingObject.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\MovingObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:45:20.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T19:45:20.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCwAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T19:22:41.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\rafaf\\Documents\\week11lecture\\Assets\\Scenes\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDMAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T19:08:46.432Z",
               "EditorCaption": ""

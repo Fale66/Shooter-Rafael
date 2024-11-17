@@ -357,6 +357,7 @@
 "Assets/Scenes/Scripts/Enemy.cs"
 "Assets/Scenes/Scripts/Explosion.cs"
 "Assets/Scenes/Scripts/GameManager.cs"
+"Assets/Scenes/Scripts/MainMenu.cs"
 "Assets/Scenes/Scripts/MovingObject.cs"
 "Assets/Scenes/Scripts/Player.cs"
 -langversion:9.0
